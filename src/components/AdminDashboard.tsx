@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { format } from 'date-fns';
-import { Calendar as CalendarIcon, Clock, Search, Plus, Calendar, ChevronDown } from 'lucide-react';
+import { Calendar as CalendarIcon, Clock, Search, Plus, ChevronDown } from 'lucide-react';
 import { Calendar } from '@/components/ui/calendar';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
@@ -192,7 +192,7 @@ const AdminDashboard: React.FC = () => {
               ))
             ) : (
               <div className="col-span-full text-center py-12 bg-muted/30 rounded-lg">
-                <Calendar className="h-12 w-12 text-muted-foreground mx-auto mb-3" />
+                <CalendarIcon className="h-12 w-12 text-muted-foreground mx-auto mb-3" />
                 <h3 className="text-lg font-medium">No scheduled appointments</h3>
                 <p className="text-muted-foreground">
                   There are no upcoming appointments scheduled

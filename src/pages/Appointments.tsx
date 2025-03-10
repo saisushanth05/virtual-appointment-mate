@@ -35,17 +35,17 @@ const AppointmentsPage = () => {
     const messages = [
       {
         title: 'No upcoming appointments',
-        description: 'You don't have any scheduled appointments. Would you like to book one?',
+        description: "You don't have any scheduled appointments. Would you like to book one?",
         icon: Calendar,
       },
       {
         title: 'No past appointments',
-        description: 'You don't have any completed appointments yet.',
+        description: "You don't have any completed appointments yet.",
         icon: CheckCircle,
       },
       {
         title: 'No cancelled appointments',
-        description: 'You don't have any cancelled appointments.',
+        description: "You don't have any cancelled appointments.",
         icon: X,
       },
     ];
